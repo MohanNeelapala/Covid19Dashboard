@@ -1,0 +1,46 @@
+.record-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.state-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f5f9;
+  width: 110px;
+  text-align: left;
+}
+
+.record-content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100px;
+}
+
+.confirmed {
+  color: #ff073a;
+}
+
+.active {
+  color: #007bff;
+}
+
+.deceased {
+  color: #6c757d;
+}
+
+.recovered {
+  color: #28a745;
+}
+
+.population {
+  color: #94a3b8;
+}

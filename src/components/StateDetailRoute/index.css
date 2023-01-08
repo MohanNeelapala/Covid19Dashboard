@@ -1,0 +1,97 @@
+.home-icons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cases-icon {
+  list-style-type: none;
+  margin: 10px;
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .cases-icon {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.home-icons-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cases-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .case-count {
+    margin: 2px;
+  }
+}
+
+.confirmed {
+  color: #ff073a;
+}
+
+.confirmed:hover {
+  background-color: #331427;
+}
+
+.active {
+  color: #007bff;
+}
+
+.active:hover {
+  background-color: #132240;
+}
+
+.recovered {
+  color: #28a745;
+}
+
+.recovered:hover {
+  background-color: #182829;
+}
+
+.deceased {
+  color: #6c757d;
+}
+
+.deceased:hover {
+  background-color: #212230;
+}
+
+.confirmed-active-class {
+  background-color: #331427;
+}
+
+.active-active-class {
+  background-color: #132240;
+}
+
+.recovered-active-class {
+  background-color: #182829;
+}
+
+.deceased-active-class {
+  background-color: #212230;
+}
+
+.cases-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

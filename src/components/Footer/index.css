@@ -1,0 +1,39 @@
+.heading {
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.span-class {
+  color: #3b82f6;
+}
+
+.footer-description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+  text-align: center;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.icon {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #cbd5e1;
+  margin-right: 20px;
+}

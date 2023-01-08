@@ -1,0 +1,57 @@
+.cases-icon {
+  margin: 10px;
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .cases-icon {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.home-icons-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cases-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .case-count {
+    margin: 2px;
+  }
+}
+
+.cases-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.confirmed {
+  color: #ff073a;
+}
+
+.active {
+  color: #007bff;
+}
+
+.recovered {
+  color: #28a745;
+}
+
+.deceased {
+  color: #6c757d;
+}
